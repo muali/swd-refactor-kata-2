@@ -23,7 +23,9 @@ Refactor hints
 Bad smells to avoid:
 * Method bodies too long
 * Methods have big nesting (if, try/catch, ...)
+* Class has too much responsibilities
 * Duplicate code blocks
+* Train crushes ( getScene().getFigure(figureId).getSkeleton().removeComponent("head")
 * Methods with too many arguments
 * Uncliear exception handling
 * JDK utils underused
