@@ -2,7 +2,7 @@
 
 1.Telemetry diagnostics client (0..1 point)
 -------------------------------------------
-Write test tests for TelemetryDiagnosticControls.java. TelemetryDiagnosticControls uses TelemetryClient to establish
+Write tests for TelemetryDiagnosticControls.java. TelemetryDiagnosticControls uses TelemetryClient to establish
 connection to telemetry server (in this example it is fake).
 You can probably meet some restrictions of implementations to write tests - so feel free to
 improve design to achieve your goal.
@@ -17,7 +17,8 @@ Make code as simple and readable as it is just possible.
 ---------------------------
 Create mars rover implementation based on existing RoverSpec.
 
-
+Refactor hints
+--------------
 
 Bad smells to avoid:
 * Method bodies too long
