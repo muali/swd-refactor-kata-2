@@ -36,6 +36,6 @@ public class Customer
     return result;
   }
 
-  private String name;
-  private List<Rental> rentals = new ArrayList<>();
+  private final String name;
+  private final List<Rental> rentals = new ArrayList<>();
 }

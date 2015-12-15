@@ -7,11 +7,7 @@ public class Rental
       this.daysRented = daysRented;
   }
 
-  public int getDaysRented () {
-      return daysRented;
-  }
-
-  public Movie getMovie () {
+  public Movie getMovie() {
       return movie;
   }
 
@@ -25,6 +21,6 @@ public class Rental
     return movie.getPricePolicy().estimatePrice(daysRented);
   }
 
-  private Movie movie;
-  private int daysRented;
+  private final Movie movie;
+  private final int daysRented;
 }

@@ -31,7 +31,7 @@ public class Movie
       return priceCode;
   }
 
-  public void setPriceCode (int code) {
+  public void setPriceCode(int code) {
       priceCode = code;
   }
 
